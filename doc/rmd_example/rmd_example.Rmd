@@ -29,8 +29,7 @@ Horse population data were sourced from the [Government of Canada's Open Data we
 The R programming language[@R] and the following R packages were used to perform the analysis: knitr [@knitr], tidyverse [@tidyverse], and bookdown [@bookdown]. *Note: this report is adapted from [@ttimbers-horses].*
 
 ## Results
-
-```{r display_horse_pop_plot, out.width = "100%", fig.cap = "Horse populations for all provinces in Canada from 1906 - 1972"}
+```{r display-horse-pop-plot, out.width = "100%", fig.cap = "Horse populations for all provinces in Canada from 1906 - 1972"}
 knitr::include_graphics("../../results/horse_pops_plot.png")
 ```
 
@@ -51,7 +50,7 @@ $$s = sqrt( sum_{i = 1}^n(x_i - \bar{x}) / (n-1))$$
 
 Additionally, note that in Table 1 we consider the sample standard deviation of the number of horses during the same time span as Figure1.
 
-```{r display_pop_plot_largest_sd, out.width = "30%", fig.cap="Horse populations for the province with the largest standard deviation"}
+```{r display-pop-plot-largest-sd, out.width = "50%", fig.cap="Horse populations for the province with the largest standard deviation"}
 knitr::include_graphics("../../results/horse_pop_plot_largest_sd.png")
 ```
 
